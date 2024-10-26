@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='http://s2blog.wpengine.com/wp-content/uploads/assets/images/2017-06-08/speed-up-rendering-rails-pages-with-render-async.png' alt='render_async' />
+  <img src='./cover.png' alt='render_async' />
 
   <h1 align="center">👋 Welcome to render_async</h1>
 
@@ -23,9 +23,6 @@
     <br />
     <a href="https://discord.gg/SPfbeRm" target="_blank">
       <img src="https://img.shields.io/discord/738783603214909521" alt="Discord Server" />
-    </a>
-    <a href="https://semaphoreci.com/renderedtext/render_async" target="_blank">
-     <img src="https://semaphoreci.com/api/v1/renderedtext/render_async/branches/master/shields_badge.svg" alt="Build Status" />
     </a>
     <a href="https://codeclimate.com/github/renderedtext/render_async" target="_blank">
      <img src="https://img.shields.io/codeclimate/maintainability/renderedtext/render_async" alt="Code Climate Maintainablity" />
