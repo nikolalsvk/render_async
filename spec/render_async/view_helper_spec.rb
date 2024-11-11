@@ -1,4 +1,5 @@
 require "spec_helper"
+require "json"
 
 describe RenderAsync::ViewHelper do
   let(:helper) { Class.new { extend RenderAsync::ViewHelper } }
