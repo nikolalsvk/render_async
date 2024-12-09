@@ -49,13 +49,16 @@ if (window.jQuery) {
       }
       <% end %>
 
+      var container = $("#<%= container_id %>");
+      var filterData = container.data();
+      var data = <%= raw((data.presence || {}).to_json) %>
+
       $.ajax({
         url: '<%= path.html_safe %>',
         method: '<%= method %>',
-        data: "<%= escape_javascript(data.to_s.html_safe) %>",
+        data: Object.assign(data, filterData),
         headers: headers
       }).done(function(response) {
-        var container = $("#<%= container_id %>");
 
         // If user navigated away before the request completed
         if (!container.length) return;
